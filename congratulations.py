@@ -75,12 +75,14 @@ fireworks = []
 
 def congratulations(name):
     global fireworks  # Declare fireworks as a global variable
-    font = pygame.font.Font(None, 22)
+    font = pygame.font.Font(None, 22) #If you want to change the font, Type the name of the font instead of 'None' and make sure the Font is within the Files folder 
     message = f"🎉🎓 Congratulations, {name}!\n"\
-              "You made it.\n"\
-              "can't be more proud of you!\n"\
-              "I hope you catch your dreams\n"\
-              "(and I'm sure they will come true)"
+              "You've officially completed high school, opening the doors to a world of opportunity.\n"\
+              "As you embark on this exciting journey, remember these words:\n\n"\
+              "Prepare for a voyage filled with wonder, discovery, and new horizons. Your dedication and hard work have laid the foundation for your future success. 🚀\n\n"\
+              "As you unfurl your wings and take flight, remember that life is a canvas, and you are the artist. Paint it with your dreams, passions, and achievements.\n\n"\
+              "Once again, congratulations! May your next chapter be even more incredible than the last!\n\n"\
+              "🌟💪""
               
 
     text_rect = pygame.Rect(0, 0, width, 1)
@@ -129,5 +131,5 @@ def congratulations(name):
     pygame.quit()
 
 # Replace 'Your Name' with the actual name of the person graduating
-graduate_name = "Majd"
+graduate_name = "TYPE THE NAME HERE !!!"
 congratulations(graduate_name)
