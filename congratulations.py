@@ -82,7 +82,7 @@ def congratulations(name):
               "Prepare for a voyage filled with wonder, discovery, and new horizons. Your dedication and hard work have laid the foundation for your future success. 🚀\n\n"\
               "As you unfurl your wings and take flight, remember that life is a canvas, and you are the artist. Paint it with your dreams, passions, and achievements.\n\n"\
               "Once again, congratulations! May your next chapter be even more incredible than the last!\n\n"\
-              "🌟💪""
+              "🌟💪"
               
 
     text_rect = pygame.Rect(0, 0, width, 1)
